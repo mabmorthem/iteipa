@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Académico</title>
+    <link rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #08591D;
+            color: #fff;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #d3e29d;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .nav-btn:hover {
+            background-color: #8ab446;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(to bottom, #C6D8C0, #159F83); 
+        }
+
+        .post {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .post-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .post-text {
+            text-align: justify; /* Justifica el texto para una mejor apariencia */
+        }
+
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-icon {
+            height: 40px;
+            width: 40px;
+            margin: 0 10px;
+            filter: invert(1); /* Cambia el color de los iconos a blanco */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="images/logo.png" alt="Logo del Colegio" class="logo">
+        <div class="navigation">
+            <a href="index.html" class="nav-btn" id="prevBtn">INICIO</a>
+            <!-- Se eliminó el botón SIGUIENTE -->
+        </div>
+    </header>
+
+    <!-- Cuerpo del blog -->
+    <main>
+        <h1>Día de la diversidad étnica, la ciencia y la no violencia</h1>
+        <div class="post">
+            <img src="images/academico7.jpg" alt="Imagen 7" class="post-image">
+            <p class="post-text">En un emotivo acto de unidad y celebración, nuestra institución conmemoró el Día de la Diversidad Étnica, la Ciencia y la No Violencia. La izada de bandera dio inicio el día 22 de octubre del año 2024, símbolo de nuestra compromiso con estos valores, fue el punto culminante de una mañana llena de reflexión y alegría.</p>
+        </div>
+        <div class="post">
+            <img src="images/academico8.jpg" alt="Imagen 8" class="post-image">
+            <p class="post-text">Con la presencia de estudiantes, docentes y personal institucional, se resaltó la importancia de la tolerancia y la empatía en nuestra sociedad. A través de coplas y lecturas, se compartieron mensajes de respeto y comprensión hacia las diferentes culturas y formas de pensar. La diversidad étnica fue celebrada con entusiasmo, reconociendo la riqueza que nos brinda la variedad de tradiciones y costumbres. La ciencia fue destacada como herramienta para entender y mejorar nuestro mundo, mientras que la no violencia fue reafirmada como principio fundamental para construir una sociedad más justa y pacífica.</p>
+        </div>
+        <div class="post">
+            <img src="images/academico9.jpg" alt="Imagen 9" class="post-image">
+            <p class="post-text">En este día, reafirmamos nuestro compromiso con la inclusión, la igualdad y el respeto mutuo. La izada de bandera simboliza nuestra convicción de que, juntos, podemos crear un futuro más brillante y armonioso para todos.</p>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

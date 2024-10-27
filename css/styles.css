@@ -1,0 +1,114 @@
+body {
+    font-family:JosefinSans, Arial, sans-serif; /* Fuente por defecto para el cuerpo */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Establece el alto del cuerpo al 100% del viewport height */
+    background-color: #f0f0f0; /* Color de fondo para verificar la altura */
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; /* Reduce el alto del encabezado */
+    padding: 20px;
+    background-image:url('../images/fondo.jpg'); /* Ruta relativa a la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    box-sizing: border-box; /* Incluye padding dentro del alto total */
+   
+}
+
+header img {
+    height: 150px; /* Tamaño del logo */
+    margin-bottom: 10px; /* Espacio entre el logo y el título */
+}
+
+header h1 {
+    margin-top: 10px;
+    color: #2e75ab;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para el texto */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family:"Baskervville SC", serif; /* Fuente personalizada para el título */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los cuadros se ajusten en filas */
+    justify-content: center;
+    padding: 20px;
+    background-color: #08591D;
+}
+
+.cuadro {
+    margin: 10px;
+    width: 200px; /* Ajusta el tamaño del cuadro según sea necesario */
+    text-align: center;
+    background-color: #DFEDE0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del cuadro */
+    height: auto;
+    border-radius: 8px;
+}
+
+.cuadro a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #038C00;
+    padding: 20px;
+    text-align: center; /* Este texto es el que se aplica a los enlaces de redes sociales */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-column {
+    width: 45%; /* Ajusta el ancho según lo necesites */
+}
+
+.contact-info {
+    text-align: right; /* Alinea el texto de la columna de contacto a la derecha */
+}
+
+.social-media {
+    text-align: center; /* Alinea los íconos de redes sociales al centro */
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    color: white; /* Cambia el color del encabezado si lo deseas */
+}
+
+.footer-column p {
+    margin: 5px 0;
+    color: white; /* Cambia el color del texto si lo deseas */
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer img {
+    height: 40px; /* Iconos de redes sociales: 40x40 píxeles */
+    width: 40px;
+    filter: invert(1);
+}

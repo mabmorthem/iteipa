@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportivo</title>
+    <link rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #08591D;
+            color: #fff;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #d3e29d;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .nav-btn:hover {
+            background-color: #8ab446;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(to bottom, #C6D8C0, #159F83); 
+        }
+
+        .post {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .post-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .post-text {
+            text-align: justify; /* Justifica el texto para una mejor apariencia */
+        }
+
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-icon {
+            height: 40px;
+            width: 40px;
+            margin: 0 10px;
+            filter: invert(1); /* Cambia el color de los iconos a blanco */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="images/logo.png" alt="Logo del Colegio" class="logo">
+        <div class="navigation">
+            <a href="index.html" class="nav-btn" id="prevBtn">INICIO</a>
+        </div>
+    </header>
+
+    <!-- Cuerpo del blog -->
+    <main>
+        <h1>Intercolegiados 2024</h1>
+        <div class="post">
+            <img src="images/deportivo4.jpg" alt="Imagen 4" class="post-image">
+            <p class="post-text">Del 11 al 13 de septiembre del año 2024, se llevaron a cabo los Juegos Intercolegiados 2024 en el Instituto Técnico Industrial El Palmar, un evento que reunió a estudiantes de diversos colegios para competir en una gran variedad de deportes. Durante tres días, jóvenes atletas demostraron su talento y dedicación en disciplinas como fútbol, baloncesto, voleibol, atletismo, entre otras.</p>
+        </div>
+        <div class="post">
+            <img src="images/deportivo5.jpg" alt="Imagen 5" class="post-image">
+            <p class="post-text">Cada colegio participó en la mayoría de los deportes, mostrando un alto nivel de competencia y espíritu deportivo. Los primeros dos días estuvieron marcados por emocionantes enfrentamientos en las diferentes disciplinas, donde los equipos buscaron clasificar para la fase final. El 13 de septiembre, se disputaron las semifinales y finales de los deportes más destacados. El ambiente fue de gran expectativa, con los equipos compitiendo por los primeros lugares en sus respectivas categorías. Al final del día, se premiaron a los campeones, destacando el esfuerzo y el compañerismo demostrado por todos los participantes.</p>
+        </div>
+        <div class="post">
+            <img src="images/deportivo6.jpg" alt="Imagen 6" class="post-image">
+            <p class="post-text">Los Juegos Intercolegiados 2024 no solo fomentaron el deporte y la sana competencia, sino que también fortalecieron los lazos entre las instituciones educativas de la región, dejando claro que el deporte es una herramienta poderosa para unir a los jóvenes.</p>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
